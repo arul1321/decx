@@ -1,5 +1,5 @@
 //UNTUK INFO LENGKAP CEK (DI BACA DULU YA.txt) 
-//SUBSCRIBE devilBOTZ
+//SUBSCRIBE ArulGanz
 //TQTO JAN DI HAPUS
 //NOTE SC JANGAN DI JUAL JUAL?? DOSA AMANAH HARUS DI JAGA
 const {
@@ -45,10 +45,10 @@ const Mthumb = fs.readFileSync('./media/ganteng.jpg')
 const timeWib = moment.tz('Asia/Jakarta').format('DD/MM')
 
 //𝙁𝘼𝙆𝙀 𝙉𝙔𝘼 𝘽𝘼𝙉𝙂
-devilgamteng ='𝐃𝐄𝐕𝐈𝐋𝐁𝐎𝐓𝐙☕︎'
-fake = '𝐃𝐄𝐕𝐈𝐋𝐁𝐎𝐓𝐙☕︎'
+devilgamteng ='ArulGanz☕︎'
+fake = 'ArulGanz☕︎'
 //Ganti No Owner Ok
-const Tag = "6288215463787"		
+const Tag = "6281229859085"		
 												
 // stickwm
 const Exif = require('./lib/exif');
@@ -94,7 +94,7 @@ let setting = JSON.parse(fs.readFileSync('./setting.json'))
 owner = setting.owner
 gamewaktu = setting.gamewaktu
 petik = '```'
-//fake = 'CREATOR BOT\©devil Botz'
+//fake = 'CREATOR BOT\©ArulBotz'
 ban =[]
 
 // Database
@@ -259,7 +259,7 @@ module.exports = devil = async (devil, mek) => {
         const gcount = setting.gcount
         
         const listmsg = (from, title, desc, list) => { // ngeread nya pake rowsId, jadi command nya ga keliatan
-            let po = devil.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "☕MENU devilBOTZ","footerText": "SILAHKAN PILIH LIST MENU\nOWNER 0882-15463787","listType": "SINGLE_SELECT","sections": list}}, {})
+            let po = devil.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "☕MENU BOTZ","footerText": "SILAHKAN PILIH LIST MENU\nOWNER 0881229859085","listType": "SINGLE_SELECT","sections": list}}, {})
             return devil.relayWAMessage(po, {waitForAck: true})
         }
         
@@ -271,13 +271,13 @@ module.exports = devil = async (devil, mek) => {
             devil.relayWAMessage(res)
         }
         const cel =  {
-             key: { fromMe: false,remoteJid: "status@broadcast", participant: '0@s.whatsapp.net'}, message: {orderMessage: {itemCount: 2021, status: 200, thumbnail: imagedevil, surface: 200, message: fake, orderTitle: '𝘽𝙤𝙩𝙯 𝙙𝙚𝙫𝙞𝙡 𝘽𝙧𝙤𝙖𝙙𝙘𝙖𝙨𝙩', sellerJid: '0@s.whatsapp.net'} } }       
+             key: { fromMe: false,remoteJid: "status@broadcast", participant: '0@s.whatsapp.net'}, message: {orderMessage: {itemCount: 2021, status: 200, thumbnail: imagedevil, surface: 200, message: fake, orderTitle: ' 𝘽𝙧𝙤𝙖𝙙𝙘𝙖𝙨𝙩', sellerJid: '0@s.whatsapp.net'} } }       
 
         const ftroli =  {
-             key: { fromMe: false,remoteJid: "status@broadcast", participant: '0@s.whatsapp.net'}, message: {orderMessage: {itemCount: 2021, status: 200, thumbnail: imgcel, surface: 200, message: fake, orderTitle: '𝑰𝒕𝒔 𝑴𝒆 𝐃𝐞𝐯𝐢𝐥 𝐁𝐨𝐭𝐳 ?\n𝑪𝒓𝒆𝒂𝒕𝒐𝒓 : 𝐝𝐞𝐯𝐢𝐥 𝐬𝐭𝐨𝐫𝐞', sellerJid: '0@s.whatsapp.net'} } }       
+             key: { fromMe: false,remoteJid: "status@broadcast", participant: '0@s.whatsapp.net'}, message: {orderMessage: {itemCount: 2021, status: 200, thumbnail: imgcel, surface: 200, message: fake, orderTitle: 'ArulBotz ?\n𝑪𝒓𝒆𝒂𝒕𝒐𝒓 : ArulGanz', sellerJid: '0@s.whatsapp.net'} } }       
 
         const fkon =  {
-             key: { fromMe: false,remoteJid: "status@broadcast", participant: '0@s.whatsapp.net'}, message: {orderMessage: {itemCount: 2021, status: 200, thumbnail: fakeimage, surface: 200, message: devilgamteng, orderTitle: '𝑰𝒕𝒔 𝑴𝒆 𝐃𝐞𝐯𝐢𝐥 𝐁𝐨𝐭𝐳 ?\n𝑪𝒓𝒆𝒂𝒕𝒐𝒓 : 𝐝𝐞𝐯𝐢𝐥 𝐬𝐭𝐨𝐫𝐞', sellerJid: '0@s.whatsapp.net'} } }       
+             key: { fromMe: false,remoteJid: "status@broadcast", participant: '0@s.whatsapp.net'}, message: {orderMessage: {itemCount: 2021, status: 200, thumbnail: fakeimage, surface: 200, message: devilgamteng, orderTitle: 'ArulBotz ?\n𝑪𝒓𝒆𝒂𝒕𝒐𝒓 : ArulBotz', sellerJid: '0@s.whatsapp.net'} } }       
      
         function monospace(string) {
             return '```' + string + '```'
@@ -566,9 +566,9 @@ module.exports = devil = async (devil, mek) => {
 		const isQuotedVideo = type === 'extendedTextMessage' && content.includes('videoMessage')
 		const isQuotedAudio = type === 'extendedTextMessage' && content.includes('audioMessage')
 		const isQuotedSticker = type === 'extendedTextMessage' && content.includes('stickerMessage')
-        const troli =  {key: { fromMe: false,remoteJid: "status@broadcast", participant: '0@s.whatsapp.net'}, message: {orderMessage: {itemCount: 300, status: 200, thumbnail: fakeimage, surface: 200, message: fake, orderTitle: 'devil', sellerJid: '0@s.whatsapp.net'} } }
+        const troli =  {key: { fromMe: false,remoteJid: "status@broadcast", participant: '0@s.whatsapp.net'}, message: {orderMessage: {itemCount: 300, status: 200, thumbnail: fakeimage, surface: 200, message: fake, orderTitle: 'Arul', sellerJid: '0@s.whatsapp.net'} } }
         const ftext = {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})},message: { "extendedTextMessage": {"text": `*Hai ${pushname}👋*\n  ${moment().utcOffset('+0700').format('HH:mm:ss')} ${moment.tz('Asia/Jakarta').format('DD/MM/YYYY')}`,"title": `Hmm`,'jpegThumbnail': fs.readFileSync('./media/ganteng.jpg')}}}
-        const ftoko = {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})},message: {"productMessage": {"product": {"productImage":{"mimetype": "image/jpeg","jpegThumbnail": fs.readFileSync(`./media/ganteng.jpg`)},"title": `HALLO...${pushname}JANGAN LUPA DI ORDER`,"description": "devil Botz KANG TOLOL", "currencyCode": "IDR","priceAmount1000": "999999","retailerId": "devil-Botz","productImageCount": 1},"businessOwnerJid": `0@s.whatsapp.net`}}}
+        const ftoko = {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})},message: {"productMessage": {"product": {"productImage":{"mimetype": "image/jpeg","jpegThumbnail": fs.readFileSync(`./media/ganteng.jpg`)},"title": `HALLO...${pushname}JANGAN LUPA DI ORDER`,"description": "ArulBotz", "currencyCode": "IDR","priceAmount1000": "999999","retailerId": "Arul-Botz","productImageCount": 1},"businessOwnerJid": `0@s.whatsapp.net`}}}
 
       // Anti link
         if (isGroup && isAntiLink && !isOwner && !isGroupAdmins && isBotGroupAdmins){
@@ -941,55 +941,13 @@ devil.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
                timestampe = speed();
                latensie = speed() - timestampe             
                menu =`𝘏𝘢𝘭𝘭𝘰 𝘒𝘢𝘬... 𝘛𝘦𝘳𝘪𝘮𝘢 𝘬𝘢𝘴𝘪𝘩 𝘥𝘢𝘩 𝘱𝘢𝘬𝘦𝘬`                          
-               buttons = [{buttonId: `${prefix}command`,buttonText:{displayText: '☰ COMMAND'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'📂ALLMENU'},type:1},{buttonId: `${prefix}patner`,buttonText:{displayText: '👥PATNER'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
+               buttons = [{buttonId: `${prefix}command`,buttonText:{displayText: '☰ COMMAND'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'📂ALLMENU'},type:1},{buttonId: `${prefix}owner`,buttonText:{displayText: '👥Owner'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
 
                imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
 
                buttonsMessage = {
                contentText: `${menu}`,
-               footerText: `┏━━⬣ 𝐒𝐓𝐀𝐓𝐔𝐒 𝐁𝐎𝐓
-┃⬡𝘾𝙍𝙀𝘼𝙏𝙊𝙍 : @${owner}
-┃⬡𝘽𝘼𝙏𝙀𝙍𝘼𝙄 :  ${baterai}%
-┃⬡𝙋𝙍𝙀𝙁𝙄𝙓 : 𝑴𝒖𝒍𝒕𝒊-𝑷𝒓𝒆𝒇𝒊𝒙
-┃⬡𝙂𝙍𝙐𝙋 𝙏𝙊𝙏𝘼𝙇 : ${groups.length}
-┃⬡𝙋𝙍𝙄𝙑𝘼𝙏 𝘾𝙃𝘼𝙏 : ${privat.length}
-┃⬡𝙏𝙊𝙏𝘼𝙇 𝘾𝙃𝘼𝙏 : ${totalChat.length}
-┃⬡𝙍𝙐𝙉𝙏𝙄𝙈𝙀 : ${runtime(process.uptime())}
-┃⬡𝘽𝙊𝙏 𝙈𝙊𝘿𝙀 : ${banChats ? "𝑺𝑬𝑳𝑭-𝑴𝑶𝑫𝑬" : "𝑷𝑼𝑩𝑳𝑰𝑪-𝑴𝑶𝑫𝑬"}
-┃⬡𝙎𝙋𝙀𝙀𝘿 : ${latensie.toFixed(4)} _Second
-┃⬡𝙁𝙄𝙏𝙐𝙍 : 𝐘𝐍𝐊𝐓𝐒
-┗⬣
-
-┏━━⬣ 𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑
-┃⬡ 𝙇𝙀𝙑𝙀𝙇 : -
-┃⬡ 𝙇𝙄𝙈𝙄𝙏 : 𝐔𝐧𝐥𝐢𝐦𝐢𝐭𝐞𝐝
-┗⬣
-
-┏━━⬣ 𝐈𝐍𝐃𝐎𝐍𝐄𝐒𝐈𝐀 𝐓𝐈𝐌𝐄
-┃⬡𝙒𝙄𝘽 : ${time}
-┃⬡𝙒𝙄𝙏𝘼 : ${timeMak}
-┃⬡𝙒𝙄𝙏 : ${timeJay}
-┗⬣
-
-┏━━⬣ 𝐓𝐇𝐀𝐍𝐊𝐒 𝐓𝐎 
-┃⬡ zak botz/kizakixd
-┃⬡ Dz botz
-┃⬡ Vizz Botz
-┃⬡ Dhani Botz
-┃⬡ Rafata botz
-┃⬡ Akira botz
-┃⬡ devil botz
-┃⬡ Kurrxd
-┃⬡ Nino
-┃⬡ Iky
-┃⬡ fauzan botz
-┃⬡ MyTeam
-┃⬡ all creator bot
-┃⬡ all mastah
-┃⬡ penyedia api
-┃⬡ adiwajshing/baileys
-┗⬣
-
+               footerText: `
 ┏━━⬣ 𝐌𝐄𝐍𝐔 𝐍𝐘𝐀
 ┃⬡ ${prefix}groupmenu
 ┃⬡ ${prefix}wibumenu
@@ -1043,7 +1001,7 @@ devil.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
                break
         case 'allmenu':
         case 'menuall':
-               const boy = "6288215463787@s.whatsapp.net"     
+               const boy = "6281229859085@s.whatsapp.net"     
                const filename = `@${sender.replace('@s.whatsapp.net', '')}-${moment().unix()}`
                const nomoruser = `${sender.replace('@s.whatsapp.net', '')}-${moment().unix()}`
                let Levelnye = level.getLevelingLevel(sender, _level)
@@ -1057,19 +1015,19 @@ devil.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
                total = math(`${groups.length}*${privat.length}`)
                timestampe = speed();
                anus = sender
-               let anuku = `6288215463787`
+               let anuku = `6281229859085`
                tag = owner.split('@')[0]
-               tagme = '6288215463787'
+               tagme = '6281229859085'
                latensie = speed() - timestampe             
                menu =`𝘏𝘢𝘭𝘭𝘰 𝘒𝘢𝘬... 𝘛𝘦𝘳𝘪𝘮𝘢 𝘬𝘢𝘴𝘪𝘩 𝘥𝘢𝘩 𝘱𝘢𝘬𝘦𝘬`                          
-               buttons = [{buttonId: `${prefix}command`,buttonText:{displayText: '☰ COMMAND'},type:1},{buttonId:`${prefix}sewabot`,buttonText:{displayText:'📂SEWABOT'},type:1},{buttonId: `${prefix}patner`,buttonText:{displayText: '👥PATNER'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
+               buttons = [{buttonId: `${prefix}command`,buttonText:{displayText: '☰ COMMAND'},type:1},{buttonId:`${prefix}sewabot`,buttonText:{displayText:'📂SEWABOT'},type:1},{buttonId: `${prefix}owner`,buttonText:{displayText: '👥PATNER'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
 
                imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
 
                buttonsMessage = {
                contentText: `${menu}`,
                footerText: `
-┏━━⬣ 𝐃𝐄𝐕𝐈𝐋𝐁𝐎𝐓𝐙
+┏━━⬣ ARULBOTZ
 ┃⬡ 𝑪𝒓𝒆𝒂𝒕𝒐𝒓 : @${tagme}
 ┃⬡ 𝑩𝒂𝒕𝒓𝒆𝒂𝒊 : ${baterai}%
 ┃⬡ 𝑷𝒓𝒆𝒇𝒊𝒙 : 𝑴𝒖𝒍𝒕𝒊-𝑷𝒓𝒆𝒇𝒊𝒙
@@ -1090,13 +1048,13 @@ devil.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 ┗⬣
 
 ┏━━⬣ 𝐈𝐍𝐅𝐎 𝐎𝐖𝐍𝐄𝐑
-┃⬡ Nama : devilstore
+┃⬡ Nama : ArulGanz
 ┃⬡ Contact : @${tagme} 
 ┃⬡ Instagram :
-┃⬡ *https://instagram.com/devilstore19*
-┃⬡ YouTube : https://youtube.com/channel/UCMnHBMYarAeDtfdoWpQF7hA
+┃⬡ *https://instagram.com/_daaa_1*
+┃⬡ YouTube :*Gak Punya Youtube*
 ┃⬡ Official Group :
-┃⬡ *https://chat.whatsapp.com/Fe9lr9fJMX4FY7BMkPSo5v*
+┃⬡ *Gak Punya Group*
 ┃⬡ Rest Api :
 ┃⬡ *https://api-devilbot.herokuapp.com/*
 ┗⬣
@@ -1431,25 +1389,7 @@ devil.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *▢ ${prefix}meme*
 *▢ ${prefix}memeindo*
 *▢ ${prefix}darkjoke*
-┏━━⬣ 𝐓𝐇𝐀𝐍𝐊𝐒 𝐓𝐎 
-┃⬡ 𝐳𝐚𝐤 𝐛𝐨𝐭𝐳/𝐤𝐢𝐳𝐚𝐤𝐢𝐱𝐝
-┃⬡ 𝐃𝐳 𝐛𝐨𝐭𝐳
-┃⬡ 𝐕𝐢𝐳𝐳 𝐁𝐨𝐭𝐳
-┃⬡ 𝐃𝐡𝐚𝐧𝐢 𝐁𝐨𝐭𝐳
-┃⬡ 𝐑𝐚𝐟𝐚𝐭𝐚 𝐛𝐨𝐭𝐳
-┃⬡ 𝐀𝐤𝐢𝐫𝐚 𝐛𝐨𝐭𝐳
-┃⬡ 𝐃𝐞𝐯𝐢𝐥 𝐛𝐨𝐭𝐳
-┃⬡ 𝐊𝐮𝐫𝐫𝐱𝐝
-┃⬡ 𝐍𝐢𝐧𝐨
-┃⬡ 𝐈𝐤𝐲
-┃⬡ 𝐟𝐚𝐮𝐳𝐚𝐧 𝐛𝐨𝐭𝐳
-┃⬡ 𝐌𝐲𝐓𝐞𝐚𝐦
-┃⬡ 𝐚𝐥𝐥 𝐜𝐫𝐞𝐚𝐭𝐨𝐫 𝐛𝐨𝐭
-┃⬡ 𝐚𝐥𝐥 𝐦𝐚𝐬𝐭𝐚𝐡
-┃⬡ 𝐩𝐞𝐧𝐲𝐞𝐝𝐢𝐚 𝐚𝐩𝐢
-┃⬡ 𝐚𝐝𝐢𝐰𝐚𝐣𝐬𝐡𝐢𝐧𝐠/𝐛𝐚𝐢𝐥𝐞𝐲𝐬
-┗
-©𝐜𝐫𝐞𝐚𝐭𝐨𝐫 𝐛𝐲 𝐝𝐞𝐯𝐢𝐥 𝐛𝐨𝐭𝐳
+©ArulBotz
 `, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
@@ -1531,17 +1471,17 @@ devil.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
                devil.relayWAMessage(prep)
                break
       case 'gopay':
-             reply(`GOPAY : 088215463787\n\n A/N devilSTORE`)
+             reply(`GOPAY : 081229859085\n\n A/N devilSTORE`)
              break  
       case 'pulsa':
-             reply(`PULSA : 081220670449\n\n KARTU TRI`)
+             reply(`PULSA : 081229859085\n\n KARTU TRI`)
              break
       case 'dana':
              reply(`DANA : BLOM TERSEDIA\n\n BLOM BUAT AKUN DANA`)
              break   
       case 'qris':
              wew = fs.readFileSync(`./media/payment.jpg`)
-             teks = `SCAN QRIS DI ATAS A/N devilBOTZ`
+             teks = `SCAN QRIS DI ATAS A/N ARULBOTZ`
              devil.sendMessage(from, wew, image, { quoted: mek, caption: teks })
              break 
 //------------------< menu nye >-------------------      
@@ -2589,10 +2529,10 @@ HARGA PERMANEN:~15k~ PROMO!!! *10K* MINAT? HUBUNGI OWNER`
 case 'bayar':
 gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
 teksnya = ` *「PAYMENT」*
-• GOPAY : 088215463787
+• GOPAY : 081229859085
 • QRIS : SCAN PP
 • DANA : 
-• Subrek devil Botz
+• Follow Instagram _daaa_1
 ━━━━━━━━━━━━━━━━━━━━`
         devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
@@ -3005,7 +2945,7 @@ case 'tiktok':
               if (!q.includes('tiktok')) return reply(mess.error.Iv)
               buttons = [{buttonId: `${prefix}tiktoknowm ${q}`,buttonText:{displayText: `🎥 Video`},type:1},{buttonId:`${prefix}ttaudio ${q}`,buttonText:{displayText:'🎵 Mp3'},type:1}]
               imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
-              buttonsMessage = {footerText:'Jangan Lupa Subscribe Yt devil-Botz\n Helpme tu 1k subscriber', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Jangan Lupa Subscribe Yt Arul-Botz\n Helpme tu 1k subscriber', imageMessage: imageMsg,
               contentText:`Silahkan pilihan media yg mau di download kak:v`,buttons,headerType:4}
               prep = await devil.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek})
               devil.relayWAMessage(prep)
@@ -4487,7 +4427,7 @@ break
               textImg(`${runtime(process.uptime())}`)
               break
        case 'youtube': 
-              reply(`Jangan Lupa Subscribe YT Owner:\n https://youtube.com/channel/UCMnHBMYarAeDtfdoWpQF7hA`)
+              reply(`Jangan Lupa Subscribe YT Owner:\n https://youtube.com/arulganx`)
               break
        case 'masukandata':
              reply(`*「BOT MELAYANI」*\n\n━━━━━━━━━━━━━━━━━━━━\n\nMASUKKANA DATA BERIKUT\n*•NAMA GAME:*\n*•ID GAME:*\n*•USER NAME:*\n━━━━━━━━━━━━━━━━━━━━\n*NOTE:*\n*1.* _JANGAN LUPA BUKTI TRXNYA_\n*2.* _OTOMATIS PESANAN_\n_LANSUNG DI PROSES_\n*3.* _PESANAN ANDA DI PROSES_\n_OLEH_\n\n   *©devil Botz*\n\n_JIKA PESANAN ANDA LOW_\n_PROSES MOHON BERSABAR_\nwa.me/6288215463787`)
@@ -4729,7 +4669,7 @@ case 'getvn':
              for (let _ of anu100) {
              devil.sendMessage(_.jid, 
 			{"contentText": `*「 PESAN SIARAN BOT 」*\n\n${body.slice(4)}`,
-			"footerText": '𝐃𝐞𝐯𝐢𝐥 𝐁𝐨𝐭𝐳☕︎︎☕︎',
+			"footerText": 'ArulBotz☕︎︎☕︎',
 			"buttons": [
 			{"buttonId": `#menu`,
 			"buttonText": {"displayText": "MENU"
@@ -5651,7 +5591,7 @@ case 'coffe':
 					break                            
 //------------------< Menunya Bang:v >-------------------
       case 'infoig':
-             reply(`Jangan Lupa Follow Ig Owner Ya : https://www.instagram.com/devilbotz12`)
+             reply(`Jangan Lupa Follow Ig Owner Ya : https://www.instagram.com/_daaa_1`)
              break
       case 'grupbot':
              reply('')
