@@ -1,6 +1,6 @@
 exports.dmff = (prefix) => {
 return `
-🦴ゝLIST DROP DM DEVILSTORE
+🦴ゝLIST DROP DM ARULGANZ
  ▬▬▭▬▬▭▬▬▭▬▬▭▬▬▭▬▬
 ␥50💎 : 7.400
 ␥70💎 : 9.600
@@ -17,12 +17,12 @@ return `
 𖥻 order : sabar
 𖥻 ga sabar ga ush order, krn yg proses bukan aku gw cuma seller
 - dm order di nomor :
-🦴 𓄼 wa.me/6288215463787
+🦴 𓄼 wa.me/6281229859085
 `
 }
 exports.sewabot = (prefix) => {
 return `
-|I----𝐎𝐩𝐞𝐧 𝐒𝐞𝐰𝐚 𝐁𝐲 𝐁𝐎𝐓𝐙 𝐃𝐄𝐕𝐈𝐋----I| 
+|I----𝐎𝐩𝐞𝐧 𝐒𝐞𝐰𝐚 𝐁𝐲 ArulGanz----I| 
 
 ╭─═  ❃ 𝐹𝑖𝑡𝑢𝑟 𝐵𝑜𝑡𝑧 ❃  ═══
 │❒ 𝑨𝒏𝒕𝒊𝒍𝒊𝒏𝒌
@@ -44,30 +44,30 @@ return `
 │𝐩𝐫𝐞𝐦𝐢𝐮𝐦 𝐦𝐚𝐧𝐞𝐧 : 𝟖𝐊
 ╰─────────┈ ⳹
 ╭回 𝑂𝑤𝑛𝑒𝑟 回
-│https://wa.me/6288215463787
+│https://wa.me/6281229859085
 ╰─────────┈ ⳹
 
 [⚠️𝐼𝑛𝑓𝑜⚠️]
 𝐩𝐞𝐫𝐦𝐚𝐧𝐞𝐧 𝐛𝐮𝐤𝐚𝐧 𝐚𝐦𝐩𝐞 𝐤𝐢𝐚𝐦𝐚𝐭 𝐚𝐧𝐣
 
-_𝐃𝐞𝐯𝐢𝐥 𝐁𝐨𝐭𝐳☕︎_
+_ArulBotz☕︎_
 `
 }
 exports.follig = (prefix) => {
 return `
-OPEN SUNTIK FOLL IG BY DEVIL STORE
+OPEN SUNTIK FOLL IG BY ArulGanz
 
 100 FOLL :1K
 200 FOLL :2K
 300 FOLL :3K
 DST
 MINAT CHAT
-wa.me/6288215463787
+wa.me/6281229859085
 `
 }
 exports.editing = (prefix) => {
 return `
-「JASA EDITING BY DEVIL STORE」
+「JASA EDITING BY ARUL GANZ 」
 *LOGO VEKTOR*
 
 ╭≽ *LOGO VEKTOR JB:2K*
@@ -106,18 +106,18 @@ NOTE:JIKA UDH DI BUATIN LOGO SECEPAT NYA TF YA
 RAGU? SKIP,TESTI? BARU OPEN BANG!
 
 MINAT? CHAT NOMOR DI BAWAH INI!
-http://wa.me/6288215463787
+http://wa.me/6281229859085
 `
 }
 exports.culikmem = (prefix) => {
 return `
-JASA CULIK MEMBER BY DEVIL STORE*
+JASA CULIK MEMBER BY ARUL GANZ *
 
 50MEM:2K
 100MEM:5K
 150MEM:7K
 FULL:10K
-Chat:wa.me/6288215463787
+Chat:wa.me/6281229859085
 `
 }
 exports.pointft = (prefix) => {
@@ -147,7 +147,7 @@ DST.....
 
 *OPEN MURID HITUNG POINT OTOMATIS:5K SAHAJA*
 
-MINAT? BISA CHAT:wa.me/6288215463787
+MINAT? BISA CHAT:wa.me/6281229859085
 ©DEVILSTORE
 `
 }
@@ -185,7 +185,7 @@ https://dvlgaming.github.io/sewabot.github.io/
 
 PAYMENT:GOPAY - QRIS /KETIK #payment
 
-MINAT CHAT : wa.me/6288215463787
+MINAT CHAT : wa.me/6281229859085
 `
 }
 exports.webjualan= (prefix) => {

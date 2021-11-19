@@ -1,6 +1,6 @@
 module.exports.mess = {
-	        wait: 'PROSES SAMBIL NUNGGU MENDING LU SUSCRIBE CHANNEL : DEVILBOTZ / KETIK #youtube',
-			success: 'NI HASILNYA KAK BANTU SUBS YOUTUBE BOT DENGAN KETIK #youtube',
+	        wait: 'PROSES SAMBIL NUNGGU MENDING LU FOLLOW INSTAGRAM _daaa_1',
+			success: 'NI HASILNYA KAK BANTU FOLLOW INSTAGRAM _daaa_1',
 			wrongFormat: 'Format salah, coba liat lagi di menu',
 			error: {
 				api: 'APINYA HABIS BRO ISI ULANG DULU',
