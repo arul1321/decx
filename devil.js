@@ -29,7 +29,6 @@ const googleImage = require('g-i-s')
 const brainly = require('brainly-scraper')
 const fetch = require('node-fetch');
 const request = require('request');
-const yts = require( 'yt-search')
 const ms = require('parse-ms')
 const toMs = require('ms')
 const axios = require("axios")
@@ -1943,8 +1942,7 @@ case 'othermenu':
        ▢ ${prefix}igstalk *username*
        ▢ ${prefix}githubstalk *username*
        ▢ ${prefix}tiktokstalk *ussername*
-       ▢ ${prefix}img2url *reply foto*
-       ▢ ${prefix}ytsearch *query*`
+       ▢ ${prefix}img2url *reply foto
 
                buttons = [{buttonId: `${prefix}menu`,buttonText:{displayText: '⬅️BACK TO MENU'},type:1},{buttonId: `${prefix}allmenu`,buttonText:{displayText: 'ALL MENU'},type:1},{buttonId: `${prefix}patner`,buttonText:{displayText: 'PATNER'},type:1}]
 
@@ -3470,32 +3468,6 @@ teks += `\`\`\`き⃟🦈 Title : ${get_result[i].title}\`\`\`
               reply(`Maaf aplikasi ${query} tidak ditemukan`)
 }
               break
-       case 'yts':
-       case 'ytsearch':
-              if (!q) return reply(mess.wrongFormat)
-              reply(mess.wait)
-              try {
-              res = await yts(q)
-              a = `┏┉⌣ ┈̥-̶̯͡..̷̴✽̶┄┈┈┈┈┈┈┈┈┈┈┉┓
-┆ *YOUTUBE SEARCH*
-└┈┈┈┈┈┈┈┈┈┈┈⌣ ┈̥-̶̯͡..̷̴✽̶⌣ ✽̶
-
-*Data Berhasil Didapatkan!*\n`
-for (let i of res.all) {
-a += `\`\`\`き⃟🦈 Title : ${i.title}\`\`\`
-\`\`\`き⃟🦈 Views : ${i.views}\`\`\`
-\`\`\`き⃟🦈 Upload : ${i.ago}\`\`\`
-\`\`\`き⃟🦈 Durasi : ${i.timestamp}\`\`\`
-\`\`\`き⃟🦈 Channel : ${i.author.name}\`\`\`
-\`\`\`き⃟🦈 Link : ${i.url}\`\`\``
-}
-               b = a.trim()
-               sendFileFromUrl(res.all[0].image, image, {quoted: mek, caption: b})
-               } catch (e) {
-               console.log(e)
-               reply(`${e}`)
-}
-               break
        case 'tourl':
                if ((isMedia && !mek.message.videoMessage || isQuotedImage || isQuotedVideo ) && args.length == 0) {
                reply(mess.wait)
